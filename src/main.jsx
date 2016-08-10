@@ -1,4 +1,4 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var List = require('./components/List.jsx');
-ReactDOM.render(<List/>,document.getElementById('main-container'));
+var Hello = require('./components/Hello.jsx');
+ReactDOM.render(<Hello/>,document.getElementById('main-container'));
